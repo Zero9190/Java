@@ -1,0 +1,217 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Interfaceex",
+            "request": "launch",
+            "mainClass": "Classes.Interfaceex",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Interface",
+            "request": "launch",
+            "mainClass": "Classes.Interface",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "InnerClass",
+            "request": "launch",
+            "mainClass": "Classes.InnerClass",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "InnerStatic",
+            "request": "launch",
+            "mainClass": "Classes.InnerStatic",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "InnerPrivate",
+            "request": "launch",
+            "mainClass": "Classes.InnerPrivate",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Abstract1",
+            "request": "launch",
+            "mainClass": "Classes.Abstract1",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulation",
+            "request": "launch",
+            "mainClass": "Classes.Encapsulation",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Modifiersmethod",
+            "request": "launch",
+            "mainClass": "Classes.Modifiersmethod",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Constractors",
+            "request": "launch",
+            "mainClass": "Classes.Constractors",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Objects",
+            "request": "launch",
+            "mainClass": "Classes.Objects",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Methods.Recursion",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Second",
+            "request": "launch",
+            "mainClass": "Second",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Test3",
+            "request": "launch",
+            "mainClass": "Test3",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Haltingcondition",
+            "request": "launch",
+            "mainClass": "Methods.Haltingcondition",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "haltingCondition",
+            "request": "launch",
+            "mainClass": "Methods.haltingCondition",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "test3",
+            "request": "launch",
+            "mainClass": "test3",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "Loopings.Test2",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Forloopeach",
+            "request": "launch",
+            "mainClass": "Loopings.Forloopeach",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Loopings",
+            "request": "launch",
+            "mainClass": "Loopings.Loopings",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Loopings.Test",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Looping",
+            "request": "launch",
+            "mainClass": "Loopings.Looping",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "tes",
+            "request": "launch",
+            "mainClass": "Loopings.tes",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Whileloop",
+            "request": "launch",
+            "mainClass": "Loopings.Whileloop",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Whileloop",
+            "request": "launch",
+            "mainClass": "Whileloop",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "exercises",
+            "request": "launch",
+            "mainClass": "exercises",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_9e90172a"
+        }
+    ]
+}
