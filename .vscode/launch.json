@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Enums",
+            "request": "launch",
+            "mainClass": "Classes.Enums",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "Interfaceex",
             "request": "launch",
             "mainClass": "Classes.Interfaceex",

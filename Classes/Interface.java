@@ -4,25 +4,39 @@ interface Animals {
     public void animalsSound(); // interface method (does not have a body)
     public void knownAs();
 }
-// Pig "implements" the Animal interface
+
 class Tiger implements Animals {
     public void animalsSound() {
-        // The body of animalSound() is provided here
-        System.out.println("Rawr Rawwwr");
+        System.out.println("Rawr Rawr");
     }
 
     public void knownAs() {
-        // The body of animalSound() is provided here
-        System.out.println("Big Cat");
+        System.out.println("Big cat of the jungle");
     }
 }
 
-public class Interface {
-    public static void main(String[] args) {
-    Tiger lion = new Tiger();
+class Jaguar implements Animals {
+    public void animalsSound() {
+        System.out.println("Roar Roar");
+    }
 
-    lion.animalsSound();
-    lion.knownAs();
+    public void knownAs() {
+        System.out.println("Big cat of the night");
+    }
+}
+
+
+
+ class Interface {
+    public static void main(String[] args) {
+    Tiger bigcat1 = new Tiger();
+    Jaguar bigCat2 = new Jaguar();
+    
+    bigcat1.animalsSound();
+    bigcat1.knownAs();
+    bigCat2.animalsSound();
+    bigCat2.knownAs();
+    
 
     }
 }
