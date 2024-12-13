@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DateTime",
+            "request": "launch",
+            "mainClass": "Classes.DateTime",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "Enums",
             "request": "launch",
             "mainClass": "Classes.Enums",
