@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaLinkedList",
+            "request": "launch",
+            "mainClass": "Classes.JavaLinkedList",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "JavaArrayList",
             "request": "launch",
             "mainClass": "Classes.JavaArrayList",
