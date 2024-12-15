@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaHashMap",
+            "request": "launch",
+            "mainClass": "Classes.JavaHashMap",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "JavaListSorting",
+            "request": "launch",
+            "mainClass": "Classes.JavaListSorting",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "JavaLinkedList",
             "request": "launch",
             "mainClass": "Classes.JavaLinkedList",
