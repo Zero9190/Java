@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaIterator",
+            "request": "launch",
+            "mainClass": "Classes.JavaIterator",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "JavaHashSet",
+            "request": "launch",
+            "mainClass": "Classes.JavaHashSet",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "JavaHashMap",
             "request": "launch",
             "mainClass": "Classes.JavaHashMap",

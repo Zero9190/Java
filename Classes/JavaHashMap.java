@@ -4,7 +4,6 @@ import java.util.HashMap;
 public class JavaHashMap {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
         /*Java HashMap
         In the ArrayList chapter, you learned that Arrays store items 
         as an ordered collection, and you have to access them with an 
@@ -73,7 +72,7 @@ public class JavaHashMap {
 
         for (String c : capitalCities.keySet()) {
 
-            System.out.println("Key: " + c + "Values: " + capitalCities.get(c));
+            System.out.println("Key: " + c + " Values: " + capitalCities.get(c));
    
         }
 
@@ -99,50 +98,10 @@ public class JavaHashMap {
 
          for(String d : people.keySet()) {
 
-         System.out.println("Key: " + d + "Values: " + people.get(d));
+         System.out.println("Key: " + d + " Values: " + people.get(d));
 
         }
 
-     }
-
-=======
-    HashMap<String, String> capitalCities = new HashMap <String, String>();
-
-    capitalCities.put("England","London");
-    capitalCities.put("Philippines","Manila");
-    capitalCities.put("Japan","Tokyo");
-    capitalCities.put("USA","LA California");
-    System.out.println(capitalCities);
-
-
-   
-    System.out.println( capitalCities.get("Japan"));
-
-    //capitalCities.remove("England");
-    //System.out.println(capitalCities);
-
-    /*capitalCities.clear();
-    System.out.println(capitalCities);*/
-
-    System.out.println(capitalCities.size());
-
-
-    for (String a : capitalCities.keySet()) {
-
-        System.out.println(a);
-
     }
 
-    for (String b : capitalCities.values()) {
-
-        System.out.println(b);
-
-    }
-
-
-    
-
-
-    }
->>>>>>> d750aeca0bfae62f4805ebd2a27e4df8c1e854d8
 }
