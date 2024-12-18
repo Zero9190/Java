@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExceptionsTryCatch",
+            "request": "launch",
+            "mainClass": "Classes.ExceptionsTryCatch",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "JavaWrapperObjects",
+            "request": "launch",
+            "mainClass": "Classes.JavaWrapperObjects",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "JavaIterator",
             "request": "launch",
             "mainClass": "Classes.JavaIterator",

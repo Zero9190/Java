@@ -19,7 +19,7 @@ public class JavaHashMap {
         The HashMap class has many useful methods. For example, to add 
         items to it, use the put() method: */
 
-        HashMap<String, String> capitalCities = new HashMap <String, String>();
+        HashMap<String, String> capitalCities = new HashMap <>();
 
         capitalCities.put("England","London");
         capitalCities.put("Philippines","Manila");
