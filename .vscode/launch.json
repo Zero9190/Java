@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaThreads",
+            "request": "launch",
+            "mainClass": "Classes.JavaThreads",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "JavaRegEx",
+            "request": "launch",
+            "mainClass": "Classes.JavaRegEx",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "ExceptionsTryCatch",
             "request": "launch",
             "mainClass": "Classes.ExceptionsTryCatch",

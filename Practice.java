@@ -1,78 +1,82 @@
 import java.util.Scanner;
 
-public class Practice{
+public class Practice {
 
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
-
-        int inputNumber = 0;
-        String userChoice;
+        String userInput = " ";
+        int enteredNum = 0;
 
         do {
 
-            boolean validInput = false;
+            boolean isTrue = false;
 
-          while (!validInput){
 
-            System.out.print("Input a number: ");
-              try {
 
-                inputNumber = Integer.parseInt(scanner.nextLine());
-                validInput = true;
+            while (!isTrue) {
 
-              } catch (NumberFormatException e) {
+                try {
 
-                System.out.println("Invalid Input. Please enter a valid number.....");
+                    System.out.print("Enter a number: ");
+                    enteredNum = Integer.parseInt(scanner.next());
+                    isTrue = true;
 
-              }
+                }
 
-          }
-            
+                catch (NumberFormatException e) {
 
-            if (inputNumber > 0 ){
+                    System.out.println("Something went wrong, please enter a number");
 
-                for (int i = 1; i <= inputNumber; i++){
+                }
 
-                    if (i % 3 == 0 && i != 0){
+            }   
+
+                for (int i = 1; i <= enteredNum; i++ ){
+
+                    if (i % 3 == 0 && i !=0) {
 
                         System.out.println("Buzz");
 
-                    } 
-                    
+                    }
+
                     else if (i % 5 == 0) {
 
-                        System.out.println("Beef");
-                        
-                    } else {
-                    
+                        System.out.println("Bees");
+
+                    } 
+
+                    else {
+
                         System.out.println(i);
-                    }     
-            }
-        } else {
 
-            System.out.println("Postive number only!!!!");
+                    }
 
-        }
+                 }
 
-        do {
+                    do {
 
-            System.out.print("Do you want to try again? Yes/No: ");
-            userChoice = scanner.next();
+                        System.out.print("Do you want to enter again? Yes/No:  ");
+                        userInput = scanner.next();
 
-            if (!userChoice.equalsIgnoreCase("yes") && !userChoice.equalsIgnoreCase("no")){
+                        if (!userInput.equalsIgnoreCase("yes") && !userInput.equalsIgnoreCase("no")) {
 
-                System.out.println("Please enter a correct input....");
+                            System.out.println("Error please enter correct input");
 
-            }
+                        } 
 
-        } while (!userChoice.equalsIgnoreCase("yes") && !userChoice.equalsIgnoreCase("no"));
+                        else {
 
-    } while (userChoice.equalsIgnoreCase("yes"));
+                            System.out.println("...............................................................................");
 
-      System.out.println("Program Exited............");
-      scanner.close();
+                        }
 
-  }
+                    } while (!userInput.equalsIgnoreCase("yes") && !userInput.equalsIgnoreCase("no"));
+            
+        } while (userInput.equalsIgnoreCase("yes"));
+        
+        System.out.println("Program Exited.....");
+        scanner.close();
 
+    }
 }
