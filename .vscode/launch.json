@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LambdaExpressionStr",
+            "request": "launch",
+            "mainClass": "Classes.LambdaExpressionStr",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExpression",
+            "request": "launch",
+            "mainClass": "Classes.LambdaExpression",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "JavaThreads",
             "request": "launch",
             "mainClass": "Classes.JavaThreads",
