@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaAdvancedSorting",
+            "request": "launch",
+            "mainClass": "Classes.AdvancedSorting.JavaAdvancedSorting",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "JavaAdvancedSortingComparable",
+            "request": "launch",
+            "mainClass": "Classes.AdvancedSorting.JavaAdvancedSortingComparable",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "SpecialSortingRule",
+            "request": "launch",
+            "mainClass": "Classes.AdvancedSorting.SpecialSortingRule",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "LamdaAdvancedSorting",
+            "request": "launch",
+            "mainClass": "Classes.AdvancedSorting.LamdaAdvancedSorting",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "JavaAdvancedSorting",
+            "request": "launch",
+            "mainClass": "Classes.JavaAdvancedSorting",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "LambdaExpressionStr",
             "request": "launch",
             "mainClass": "Classes.LambdaExpressionStr",
