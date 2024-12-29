@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeleteFiles",
+            "request": "launch",
+            "mainClass": "Classes.FileHandling.DeleteFiles",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "ReadFiles",
+            "request": "launch",
+            "mainClass": "Classes.FileHandling.ReadFiles",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
+            "name": "CreateWriteFile",
+            "request": "launch",
+            "mainClass": "Classes.FileHandling.CreateWriteFile",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "JavaAdvancedSorting",
             "request": "launch",
             "mainClass": "Classes.AdvancedSorting.JavaAdvancedSorting",
