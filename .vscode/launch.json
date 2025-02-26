@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "Classes.Polymorphism",
+            "projectName": "Java_9e90172a"
+        },
+        {
+            "type": "java",
             "name": "Testing",
             "request": "launch",
             "mainClass": "Testing",

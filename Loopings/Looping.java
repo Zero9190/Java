@@ -15,17 +15,18 @@ public class Looping {
                 System.out.print(prompt);
               inputNumber = Integer.parseInt(checker.next());
               validInput = true;
+              checker.close();
 
             } catch (NumberFormatException e) {
 
               System.out.println("Invalid Input. Postive numbers only!!!");
 
             }
-
-            checker.close();
+            
         }
 
         return inputNumber;
+        
         
     }
 
