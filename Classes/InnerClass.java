@@ -1,21 +1,34 @@
 package Classes;
-class OuterClass {
-    int x = 10;
 
-    class InnerClass {
-        public int innerMethod() {
-            return x;
-        }
+class OuterClassPart 
+{
+
+    String fname = "Jesver Kevin";
+
+    class InnerClassPart
+    {
+
+        String lname = "Abelda";
+
     }
+
 }
 
 
-public class InnerClass {
-    public static void main(String[] args){
+public class InnerClass
+{
 
-        OuterClass outer = new OuterClass();
-        OuterClass.InnerClass inner = outer.new InnerClass();
+    public static void main(String[] args) 
+    {
 
-        System.out.println(inner.innerMethod() + 5);
+        OuterClassPart outer = new OuterClassPart();
+        OuterClassPart.InnerClassPart inner = outer.new InnerClassPart();
+
+
+
+        System.out.print(outer.fname + " " + inner.lname);
+
+
     }
+
 }
