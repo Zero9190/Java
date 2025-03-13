@@ -1,6 +1,6 @@
 package Classes;
 
-class OuterClassPart 
+class OuterClass 
 {
 
     String fname = "Jesver Kevin";
@@ -15,20 +15,18 @@ class OuterClassPart
 }
 
 
-public class InnerClass
+public class InnerClass 
 {
 
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
 
-        OuterClassPart outer = new OuterClassPart();
-        OuterClassPart.InnerClassPart inner = outer.new InnerClassPart();
+        OuterClass outer = new OuterClass();
+        OuterClass.InnerClassPart inner = outer.new InnerClassPart();
 
-
-
-        System.out.print(outer.fname + " " + inner.lname);
-
+        System.out.println(outer.fname + " " + inner.lname);
 
     }
+   
 
 }
